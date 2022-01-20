@@ -1,0 +1,119 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+   background-image: url(image/pexels-ron-lach-9594679.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed; 
+   background-size: 100% 100%;
+  }
+
+  #home {
+    width: 1100px;
+    height: 650px;
+    background: url(img_navsprites.gif) 0 0;
+    
+  }
+
+  .image {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+  }
+
+  h1 {
+    margin-top: -90px;
+    margin-bottom: 15px;
+    margin-right: 142px;
+    margin-left: 112px;
+    color: red;
+  }
+
+  h2 {
+    margin-top: -18px;
+    margin-bottom: 15px;
+    margin-right: 142px;
+    margin-left: 112px;
+    color: chartreuse;
+  }
+  .navbar {
+    flex-direction: column;
+    color: aqua;
+}
+
+.navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 26px;
+    margin-right: 150px;
+    margin-left: 80px;
+    color: blue;
+}
+
+.Products{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+p{
+    color: solid black;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+.form-group{
+
+   font-size: 1.3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 34px;
+
+}
+h4{
+    margin-top: 0px;
+    margin-bottom: 26px;
+    margin-right: 150px;
+    margin-left: 153px;
+    color: blue;
+}
+#contacts{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+}
